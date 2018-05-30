@@ -6,7 +6,7 @@ class Artist
   attr_accessor :name
   
   def songs
-    song.all
+    Song.all
   end
   
   def add_song(song)
@@ -19,7 +19,7 @@ class Artist
   end
   
   def song_count
-    song.all.count
+    Song.all.count
   end
   
 end
