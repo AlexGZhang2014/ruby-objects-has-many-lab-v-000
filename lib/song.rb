@@ -9,6 +9,10 @@ class Song
   def self.all
     @all
   end
+  
+  attr_accessor :name
+  
+  
 
   
   
