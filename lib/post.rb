@@ -12,11 +12,11 @@ class Post
   
   attr_accessor :title, :author
 
-  def artist_name
-    if !artist
+  def author_name
+    if !author
       nil
     else
-      self.artist.name
+      self.author.name
     end
   end
 end
