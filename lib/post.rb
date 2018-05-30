@@ -1,6 +1,6 @@
-class Song
-  def initialize(name)
-    @name = name
+class Post
+  def initialize(title)
+    @title = name
     @@all << self
   end
 
