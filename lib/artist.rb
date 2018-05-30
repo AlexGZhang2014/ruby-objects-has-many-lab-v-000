@@ -4,4 +4,8 @@ class Artist
   end
   
   attr_accessor :name
+  
+  def songs
+    
+  end
 end
