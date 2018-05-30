@@ -6,6 +6,6 @@ class Artist
   attr_accessor :name
   
   def songs
-    
+    song.all
   end
 end
