@@ -10,8 +10,8 @@ class Post
     @@all
   end
   
-  attr_accessor :name, :artist
-  
+  attr_accessor :title, :author
+
   def artist_name
     if !artist
       nil
