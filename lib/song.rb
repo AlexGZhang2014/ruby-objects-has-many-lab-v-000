@@ -4,10 +4,11 @@ class Song
     @all << self
   end
 
-@@all = []
-
-
-
+  @@all = []
+  
+  def self.all
+    @all
+  end
 
   
   
