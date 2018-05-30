@@ -10,11 +10,8 @@ class Song
     @all
   end
   
-  attr_accessor :name
+  attr_accessor :name, :artist
   
-  def artist
-    self.artist
-  end
   
   def artist_name
     if !artist
