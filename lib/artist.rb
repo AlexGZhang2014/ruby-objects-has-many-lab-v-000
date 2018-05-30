@@ -8,4 +8,7 @@ class Artist
   def songs
     song.all
   end
+  
+  def 
+  
 end
