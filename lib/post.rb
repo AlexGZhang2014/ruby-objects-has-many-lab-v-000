@@ -1,6 +1,6 @@
 class Post
   def initialize(title)
-    @title = name
+    @title = title
     @@all << self
   end
 
